@@ -2,13 +2,7 @@
 
 This is an audio plugin that provides distortion effects with a built-in tremolo and chorus. It's designed for musicians looking for custom sound shaping and tonal experimentation.
 
-## Usage
-- Adjust the `Drive` knob for distortion level.
-- Use the `Level` knob for output gain control.
-- Enable or disable the `Tremolo` and `Chorus` effects for modulation.
-
-
-## Here are instructions on how to install JUCE, use the `.jucer` file from this GitHub repository, and export it to your preferred IDE to build your project:
+## How to use JUCE and your preferred IDE to build this project:
 
 ### 1. **Install JUCE**
 
@@ -84,3 +78,32 @@ After building, you should have an audio plugin that can be used in a DAW (Digit
 
 #### Additional Steps:
 - **VST/AU Setup**: Some platforms may require additional SDKs (like the VST3 SDK) for exporting to VST or AU formats. You may need to configure paths to these SDKs in Projucer under the exporter settings.
+
+## Features
+- Drive knob for controlling distortion intensity.
+- Level knob for managing output gain.
+- Built-in tremolo and chorus effects with tempo control.
+
+## Usage
+- Adjust the `Drive` knob for distortion level.
+- Use the `Level` knob for output gain control.
+- Press the "Disruption" button to enable or disable the `Tremolo` and `Chorus` effects for modulation.
+- Adjust the Disruption knob for tremolo tempo.
+
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any features or bug fixes.
+
+## License
+This project is licensed under the MIT License.
+
+## Credits
+This project was made using the [JUCE framework](https://juce.com/), and inspiration was drawn from various open-source JUCE projects and plugins.
+
+## Acknowledgements
+- [JUCE Framework](https://juce.com/) for the audio plugin foundation.
+- [Alexei Radashkovsky](https://github.com/alexeiradashkovsky/mxrdistortionplus) for inspiration on the distortion/clipping algorithm, licensed under the MIT License.
+- [Nicole Lassandro](https://github.com/HackAudio/juce-pedal-demo) for inspiration on the GUI, licensed under the MIT License.
+
+
+
+
