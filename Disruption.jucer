@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="cPFnXZ" name="Disruption" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" pluginAAXCategory="8192"
+              pluginVST3Category="Distortion,Modulation" pluginManufacturer="UPROAR sounds">
+  <MAINGROUP id="bxLWHB" name="Disruption">
+    <GROUP id="{ECA2AB19-24F8-3B25-168F-C2A310449237}" name="Resources">
+      <FILE id="ZYKMae" name="disruptionlogo.png" compile="0" resource="1"
+            file="../disruptionlogo.png"/>
+      <FILE id="LgxfEm" name="fighting-spirit-tbs.regular.ttf" compile="0"
+            resource="1" file="../fighting-spirit-tbs.regular.ttf"/>
+      <FILE id="V08yPR" name="boltOff.png" compile="0" resource="1" file="../boltOff.png"/>
+      <FILE id="luqWJ9" name="boltOn.png" compile="0" resource="1" file="../boltOn.png"/>
+    </GROUP>
+    <GROUP id="{CA45821D-7A0D-48B5-A8F9-2B3025D8CD29}" name="Source">
+      <FILE id="SNpJqX" name="PedalComponent.cpp" compile="1" resource="0"
+            file="../../DuplicateFolder/Source/PedalComponent.cpp"/>
+      <FILE id="KvbsWS" name="PedalComponent.h" compile="0" resource="0"
+            file="../../DuplicateFolder/Source/PedalComponent.h"/>
+      <FILE id="wIeTmH" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="../../DuplicateFolder/Source/PluginProcessor.cpp"/>
+      <FILE id="yjcwoh" name="PluginProcessor.h" compile="0" resource="0"
+            file="../../DuplicateFolder/Source/PluginProcessor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"
+               JUCE_ASIO="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Disruption"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Disruption"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../Documents/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../Documents/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../Documents/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../Documents/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../Documents/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../Documents/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../Documents/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../Documents/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../Documents/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../Documents/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../Documents/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../Documents/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../Documents/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../Documents/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../Documents/JUCE/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
