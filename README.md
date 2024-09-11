@@ -8,7 +8,7 @@ This is an audio plugin that provides distortion effects with a built-in tremolo
 - Enable or disable the `Tremolo` and `Chorus` effects for modulation.
 
 
-Here are instructions on how to install JUCE, use the `.jucer` file from this GitHub repository, and export it to your preferred IDE to build your project:
+##Here are instructions on how to install JUCE, use the `.jucer` file from this GitHub repository, and export it to your preferred IDE to build your project:
 
 ### 1. **Install JUCE**
 
