@@ -2,6 +2,8 @@
 
 This is an audio plugin that provides distortion effects with a built-in tremolo and chorus. It's designed for musicians looking for custom sound shaping and tonal experimentation.
 
+![Disruption Distortion Pedal](disruptionpedal.gif)
+
 ## How to use JUCE and your preferred IDE to build this project:
 
 ### 1. **Install JUCE**
